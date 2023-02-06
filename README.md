@@ -1,2 +1,0 @@
-# FrontEndCourse
-School Project
