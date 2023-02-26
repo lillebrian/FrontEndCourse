@@ -1,0 +1,21 @@
+.Checkout {
+   display: flex;
+   flex-direction: row;
+   height: 100%;
+   border-top: 2px solid rgba(189, 195, 199, .3);
+   
+   /* border-color: gray; */
+   
+}
+
+.itemBox {
+   flex: 4;
+   background-color: aliceblue;
+   padding: 10px;
+   
+}
+
+.checkoutBox {
+   flex: 1;
+   background-color: aliceblue;
+}

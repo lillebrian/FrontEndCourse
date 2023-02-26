@@ -1,0 +1,55 @@
+.cardContainer {
+   display: flex;
+   background-color: aliceblue;
+   width: 85%;
+   height: 200px;
+   border: 1px solid black;
+
+}
+
+.cardImage {
+   height: 100%;
+   /* max-width: 100%; */
+   width: fit-content;
+   text-align: left;
+}
+
+.imageItem {
+   max-height: 100%;
+   max-width: 100%;
+   object-fit: cover;
+}
+
+
+.cardItemContainer {
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   gap: 0;
+   padding: 10px;
+}
+.cardItem {
+   display: inline-flex;
+   gap: 20%;
+   place-content: center;
+   align-items: center;
+   height: 75%;
+      
+   background-color: aquamarine;
+}
+
+.cardItemButtons {
+   display: flex;
+   flex-wrap: wrap;
+   align-content: flex-end;
+   height: 25%;
+}
+
+.button {
+   color: black;
+   text-align: center;
+   background: rgba(0, 0, 0, 0.00);
+   border-radius: 10%;
+   border-color: rgba(0, 0, 0, 0.2);
+   max-height: 100%;
+}
