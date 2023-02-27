@@ -1,4 +1,14 @@
-export const itemList = [
+export interface storeItem {
+  id: string,
+  name: string,
+  price: number,
+  currency: string,
+  rebateQuantity: number,
+  rebatePercent: number,
+  upsellProductId?: string | null
+}
+
+export const itemList : storeItem[] = [
    {
      "id": "vitamin-d-90-100",
      "name": "D-vitamin, 90ug, 100 stk",
